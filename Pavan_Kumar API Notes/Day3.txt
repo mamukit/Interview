@@ -1,0 +1,28 @@
+Day-3
+-------
+Postman tool
+-------------
+1) Post is a free tool which is used for Testing Webservices API's
+2) Avaialable in 2 forms..
+	->standalone application
+	-> chrome browser plugin
+
+Endpoint: https://reqres.in	
+
+URI: https://reqres.in/api/users?page=2
+
+/api/users --> Parameters
+
+After ?  ---> query String
+
+
+Header: Addititional details about an API.
+
+
+1) https://reqres.in/api/users?page=2 -->get
+2) https://reqres.in/api/users/2   -->get
+3) https://reqres.in/api/users  --post
+
+Demo APIs:
+------------
+http://dummy.restapiexample.com

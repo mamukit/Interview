@@ -1,0 +1,45 @@
+Day-24
+---------
+Log4j
+Page Object Model
+
+How to implement Logging to your automation (Log4J)
+---------------------------------------------------
+Step1: Downlaod log4j.Jar file and add to project build path
+
+	http://www-us.apache.org/dist/logging/log4j/1.2.17/log4j-1.2.17.zip
+
+Step2: Copy log4j.properties file in project home directory
+
+Step3: Add logging messages into your test case
+
+	Logger logger=Logger.getLogger("Log4jdemo");  // Provide test ase name/class name as a parameter
+	PropertyConfigurator.configure("Log4j.properties");
+
+	logger.info(message);
+
+
+Page Object Model ( Mange Page objects)
+-------------------------
+1) Re-usability
+2) Reduce our stuff.
+
+
+test case includes
+--------
+--> Test Method  : Ex: Login()
+--> Object Identification method   Ex : driver.findElemnt()
+--> Action method  Ex: sendKeys(), click()...
+
+
+
+
+
+
+
+
+
+
+
+
+

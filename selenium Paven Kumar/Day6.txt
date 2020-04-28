@@ -1,0 +1,61 @@
+Day-6
+------
+Overloading
+this keyword
+Static variables & static methods
+-----------------------
+
+Overloading: crating methods/constructors with the same name with different parameters.
+
+Advantage:
+-----
+saves memory
+saves time
+
+1) Number of parameters
+2) data type of parameters
+
+constructor overloading
+
+this keyword
+
+static --> applicable for varaibles and methods.
+
+static varibles
+static methods
+-------------------------
+1) static methods can access only static stuff(directly- without creating an object).
+2) static methods can also access non static stuff but through object.
+3) Non static methods can access both static & non static stuff directly.
+
+System.out.println()
+-------------------------
+
+class Test
+{
+static String s="welcome";
+}
+
+Test.s.length(); --> 7
+
+
+
+class System
+{
+static PrintStream out;
+}
+
+System.out.println("testing")
+System.out.print("testing")
+
+
+
+
+
+
+
+
+
+
+
+

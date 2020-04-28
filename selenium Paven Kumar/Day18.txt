@@ -1,0 +1,51 @@
+Day-18
+-------
+1) How to upload files
+2) How to download files
+--------------------------
+
+1) AutoIT
+2) Sikuli
+
+How to upload files using WebDriver+Sikuli
+------------------------
+1) Download Sikuli jar file
+
+https://launchpad.net/sikuli/sikulix/1.1.2/+download/sikulixsetup-1.1.2.jar
+
+2) Add jar file to project build path
+Right Click on the project -> Build Path -> Configure Build Path
+
+3) write code for upload file scenario in webdriver.
+
+How to download files
+--------------------
+
+Mime types for firefox browser
+--------------
+https://www.sitepoint.com/mime-types-complete-list/
+
+
+Assignments
+------------
+1) Upload File
+
+http://opensource.demo.orangehrmlive.com/
+
+Login(Admin/admin)-->PIM-->Add Employee-->Upload photograph
+
+
+2) File upload
+
+http://demo.automationtesting.in/FileUpload.html
+
+
+
+3) Download all the files from below link( Use chrome & Firefox)
+
+http://the-internet.herokuapp.com/download
+
+
+
+
+

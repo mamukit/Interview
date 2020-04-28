@@ -1,0 +1,60 @@
+Day-29
+----------
+1) Implementation
+2) Execution
+3) Maintanance
+
+
+Executing test cases:
+-----------------------
+1) Run test cases using pom.xml within eclipse
+2) Run test cases using command prompt(without using eclipse)
+3) Run test cases using run.bat
+4) Run test cases using Jenkins
+
+
+1) Run test cases using pom.xml within eclipse
+------------------------------------------
+dependencies --> Downlaod jars
+plugins --> used to run your Maven project
+
+maven-compiler-plugin
+maven-surefire-plugin
+
+2) Run test cases using command prompt(without using eclipse)
+
+Install Maven on windows: 
+Downlaod link: http://mirrors.wuchna.com/apachemirror/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip
+
+You will get zip file
+
+Maven Home: C:\apache-maven-3.5.4\bin
+
+Add entry in path varaible: C:\apache-maven-3.5.4\bin
+Create new varaibles under System varaibles section...
+MAVEN_HOME =C:\apache-maven-3.5.4\
+
+
+cd C:\Users\admin\myworkspace\nopCommerceV2
+mvn clean install
+
+3) Run test cases using run.bat
+------------------------------
+
+Create run.bat file contain following commands
+--------
+	cd C:\Users\admin\myworkspace\nopCommerceV2
+	mvn clean install
+
+
+4) Run test cases using Jenkins
+--------------
+Downlaod jenkins from URL: https://jenkins.io/download/
+
+	1) Execute project using free style project(run.bat)
+	2) Execute project using Maven(pom.xml)
+
+
+
+cd C:\Users\admin\myworkspace\nopCommerceV2
+run.bat

@@ -1,0 +1,50 @@
+Day-15
+--------
+Data Driven testing 
+
+ApachePOI --> Pre-defined API used to work with the Microsoft documents(Dic, Excel, ppt etc...)
+XLUtils.java  (We can do Excel operations)
+ExcelFile(test data)
+
+Testcase
+
+Batch testing can be done using TestNG XML file
+----------------
+1) Automatically create
+2) Manual creation
+
+Ways of executing test cases/test suite
+----------------------
+1) Using TestNG xml file
+
+2) using pom.xml file (Using Maven)
+		2 types of entries:....
+			1) dependencies
+			2) Plug-ins ( maven-sure-fire,maven-compiler-plugin)
+
+3) Using commands prompt
+----------------------------
+step1: Download and install maven s/w on windows	
+	http://mirrors.fibergrid.in/apache/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.zip
+step2: Unzip the file-->Copy it some where in your drive.
+	set the Environment path varaible.
+
+Commands in command prompt
+----------------------------
+cd C:\Users\admin\myworkspace\RestAssuredMornignBatch
+mvn clean install
+
+
+4) Using run.bat file
+----------------------------
+Create run.bat file in project location then add below commands.
+	
+	cd C:\Users\admin\myworkspace\RestAssuredMornignBatch
+	mvn clean install
+
+5) Using Jenkins
+-------------------
+	1) Downlaod and install jenkins
+	2) You need create a job/project in jenkins
+	3) You need configure run.bat file in jenkins
+

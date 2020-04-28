@@ -1,0 +1,79 @@
+Day-13
+--------
+
+URL: https://goo.gl/RVdKM9
+
+get commands
+------------------
+get() --> opens the URL on the browsers
+getTitle() --> returns the page tile
+getCurrentURL() -->returns the URL of the page
+getPageSource() --> returns HTML code for page
+
+
+Dropdown/combobox/list box
+--------------------------
+1) Find how many options present in drop down
+	dropdown.getOptions().size()
+
+2) Extract all the options and print them
+	dropdown.getOptions()
+
+3) Select option from the dropdown 
+	
+	dropdown.selectByvisibleText(option)
+	dropdown.selectByIndex(index)
+	dropdown.selectByValue(value)
+
+Radio buttons/Checkboxs
+----------------
+1) Check the status
+2) Select option  - click()
+
+Conditional Commands (Retirns a boolean value- true/false)
+----------------
+isDisplayed()
+isEnabled()
+isSelected() // for radio buttons and check boxes
+
+
+Navigational commands
+-------------------
+navigate().to(URL) --> same as  driver.get()
+navigate.back()
+navigate.forward()
+navigate.refresh()
+
+browser commands
+--------
+close() --> close currently open browser(one browser)
+quit() --> closes multiple browsers
+
+WebElements coverd
+----------
+text boxes/input boxes
+Drop down
+Radio buttons
+Check boxes
+Links
+
+Commmands
+---------
+get commands
+conditional commands
+navigational commands
+browser commands
+
+Wait commands
+
+Assingment
+-----------------
+
+https://testautomationpractice.blogspot.com/
+
+driver.switchTo().frame(0);
+
+
+
+
+

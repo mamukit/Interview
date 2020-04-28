@@ -1,0 +1,17 @@
+
+Bar Code is a machine-readable optical label that contains information about the item to which it is attached. 
+
+A barcode is the small image of lines (bars) and spaces that is affixed to retail store items, identification cards, and postal mail to identify a particular product number, person, or location. 
+
+Selenium has limitation to automate Bar code but by using third party API we can automate Bar codes. 
+
+So, ZXing is one the third party API will be used to automate Bar Codes.
+
+Pre-requisites:
+---------
+Download Zxing API:
+
+https://mvnrepository.com/artifact/com.google.zxing/javase/3.3.3
+https://mvnrepository.com/artifact/com.google.zxing/core/3.3.3
+
+Bar-Code generator: https://barcode.tec-it.com

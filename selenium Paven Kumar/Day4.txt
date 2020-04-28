@@ -1,0 +1,60 @@
+Day-4
+--------
+Java Arrays & Strings
+------------------
+
+int a=10;
+a=20;
+
+Array: Array is collection of elements of same data type.
+
+2 types of arrays
+----------
+1) Single dimensional
+2) Two/multi dimensional
+
+Single Dimensional array
+------------------
+1) Declare an array
+2) insert values into array
+3) Find size of an array
+4) read values from an array
+
+
+int a[]=new int[5]; //int []a=new int[5]
+
+for(initialization;condition;inc)
+{
+statemtnes;
+}
+
+
+Advanced foor loop/Enhanced for loop/for each loop
+------------------------------
+for(initilization)
+{
+statements;
+}
+
+Two/multi dimensional array
+----------------------
+1) Declare an array
+2) insert values into array
+3) Find size of an array( rows, columns)
+4) read values from an array
+
+int a[][]=new int[3][2]; // 3--> rows  2--> columns
+int [][]a=new int[3][2];
+
+String: String is  a colection of characters.
+
+String s="welcome"
+
+String methods
+
+
+
+
+
+
+

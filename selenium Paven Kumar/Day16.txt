@@ -1,0 +1,48 @@
+Day-16
+--------
+Web Table/HTML Table
+-------------
+
+driver.findElement(By.xpath("/html/body/table/tbody/tr")); //only 1 st
+
+driver.findElements(By.xpath("/html/body/table/tbody/tr"));
+
+
+/html/body/table/tbody/tr[3]/td[2]  --> 0002
+
+
+
+
+driver.findElements(By.xpath("//*[@id="resultTable"]/tbody/tr")).size()
+
+
+//*[@id="resultTable"]/tbody/tr[3]/td[5]
+
+
+http://www.seleniumeasy.com/test/table-pagination-demo.html
+
+Assignment
+-----------
+
+1) OrangeHRM
+
+Read all the rows and columns from the table
+
+https://opensource-demo.orangehrmlive.com/
+
+2) https://money.rediff.com/gainers/bsc/daily/groupa
+
+3) Read the data from HTML Table 
+https://testautomationpractice.blogspot.com/
+
+
+
+
+
+
+
+
+
+
+
+

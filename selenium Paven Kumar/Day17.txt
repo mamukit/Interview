@@ -1,0 +1,71 @@
+Day-17
+--------
+Mouse Actions
+-------
+Mouse Hover
+Right Click
+Double Click
+Drag and drop
+
+MouseHover
+-----
+act.moveToElement(webelement)
+
+
+Right click
+-------
+act.contextClick(webelement)
+
+
+Double click
+-----------------
+act.doubleClick(Webelement)
+
+Drag and drop
+---------------
+act.dragAndDrop(source_element, target_element)
+
+
+Resizing/Slider
+-----------
+act.moveToElement(element).dragAndDropBy(element,400, 0)
+
+
+Keyboard Actions
+---------------------
+act.sendKeys(Keys.CONTROL+"a")
+
+
+Scrolling page
+-----------------
+3 appraoches...
+
+approach1
+----
+js.executeScript("window.scrollBy(0,2000)","");
+
+approach2
+----
+WebElement flag=driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/table[1]/tbody/tr[86]/td[1]/img"));
+js.executeScript("arguments[0].scrollIntoView();",flag);
+
+approach3
+------
+js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+
+
+tooltip
+--------------
+
+Assingments
+-------------
+https://testautomationpractice.blogspot.com/
+
+
+
+
+
+
+
+
+

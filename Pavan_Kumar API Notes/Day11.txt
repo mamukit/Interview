@@ -1,0 +1,58 @@
+Day-11
+----------
+
+Data Driven testing using multiple Data Sources
+--------------------
+
+XLS
+TXT
+Grid
+
+
+JDBC
+--------------
+1) Download JDBC driver then copy it it C:\Program Files\SmartBear\ReadyAPI-2.5.0\bin\ext
+
+2) Connecting string
+	Hostname
+	port
+	sid/service
+	user.pwd
+ 
+oracle.jdbc.driver.OracleDriver
+jdbc:oracle:thin:hr/hr@localhost:1521/pdborcl
+
+
+Executing test cases and generating reports
+----------------------------------------------
+1) ReadyAPI
+2) TestRunner
+
+3) Command Prompt
+	-> Export your test suite/project (XML format)
+	-> Goto below location
+	
+	C:\Program Files\SmartBear\ReadyAPI-2.5.0\bin>
+
+	Command: testrunner.bat "E:\Football-soapui-project.xml"
+
+
+
+Execute single test case from test suite(From CLI):
+----------------------------
+C:\Program Files\SmartBear\ReadyAPI-2.5.0\bin>testrunner.bat -FPDF -R"JUnit-Style HTML Report" -c "Countries TestCase-DDT" "E:\Football-soapui-project.xml"
+
+Report Link: file:/C:/Program%20Files/SmartBear/ReadyAPI-2.5.0/bin/InfoSoapBinding-TestSuite/Countries-TestCase-DDT/index.html
+
+
+
+
+
+
+
+
+
+
+
+
+

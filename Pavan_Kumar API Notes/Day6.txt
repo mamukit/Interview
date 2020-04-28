@@ -1,0 +1,34 @@
+Day-6
+-------
+Facebook API
+
+Graph Webserice API
+-----------------	
+1) Posting a message on Facebook Page
+2) Reading Post message
+3) Commenting on Post on Page
+4) Deleting comments
+5) Deleting post messages
+
+Access Token:
+-------------
+XXXXXXXXXXXXXXXX
+
+post message ID: 503503553031181_1880718485309674"
+
+comment ID: 1880718485309674_1880724521975737
+
+
+Comment id 1: 1880736288641227_1880739335307589"
+comment id 2: 1880736288641227_1880740591974130
+
+CAT API
+-------------------
+
+We have to create collection varaibles which are commonly used in every request....
+
+endpoint : https://api.thecatapi.com/
+YOUR-API-KEY : Yours API key
+
+
+

@@ -1,0 +1,117 @@
+Day-2
+------
+Java installation on windows
+Download and install Eclipse
+--------------
+Variables
+Data Types in java
+Operators in Java
+---------------------
+
+Step1: Download Java
+--------------
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Download Link: http://download.oracle.com/otn-pub/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_windows-x64_bin.exe
+
+Step2: Install java using .exe file
+
+	C:\Program Files\Java\jdk10.2.0_xx
+
+Step3: Configure Java path
+
+C:\Program Files\Java\jdk1.8.0_151\bin
+
+Right click on myPC-->Properties-->Advanced system settings-->Environment varaibles-->system settings
+-->path variable-->new buton-->provide path of java-->Ok
+
+Step4: check java is properly configured
+	open command window (cmd)
+	java -version
+
+
+Download and install Eclipse
+----------------------------
+Eclipse is an IDE for java.
+
+1) Download link: https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe&mirror_id=105
+2) Install Eclipse using .exe file (Eclipse for Java developers)
+
+	Default location: C:\Program Files\java-photon\eclipse
+
+First time Eclipse will ask you set workspace location(Java projects & scripts will be stored).
+
+
+Creating java project in Eclipse
+----------------------------
+File-->New-->Java Project-->Specify name for the java project-->Finish
+
+Syntax:
+--------
+public class FirstJavaProgram {
+
+	public static void main(String args[])
+	{
+		//code
+	}
+	
+}
+
+How to run java program
+-------
+Rigt click-->Run as java application
+
+
+Variables: containers whihc can hold the values
+
+int x;  	// declaration
+x=100;		//initilization
+
+int x=10;
+
+Data types in java
+---------------------------
+1) Premitive data types
+	int, double, char, boolean 
+	short, float..
+2) Derived data types
+	Array,ArrayList,String,HashMap etc...
+
+Operators in Java
+-----------------
+1) Arithmetic operators -->  + - * / %
+2) Relational Operators (Comparison operators)--->   == < >  <=  >=  !=
+3) Logical operators   &&   ||    !
+4) increment/decrement operators  ++  --
+5) Assignment operators  =
+
+
+x	y	x & y	x || y	!x
+----------------------------------------
+TRUE	TRUE	TRUE	TRUE	FALSE
+TRUE	FALSE	FALSE	TRUE	
+FALSE	TRUE	FALSE	TRUE	TRUE
+FALSE	FALSE	FALSE	FALSE	
+
+
+Assignment
+-----------
+1. Write a Java program to print 'Hello' on screen and then print your name on a separate line.
+Expected Output : Hello Your name
+
+2. Write a Java program to print the sum of two numbers. 
+Test Data: 74 + 36 Expected Output : 110
+
+
+3. Write a Java program to swap two numbers.
+
+before swap
+a=10   b=20
+
+after swap
+a=20  b=10
+
+
+
+
+

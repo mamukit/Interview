@@ -1,0 +1,13 @@
+Day-14
+---------
+-> How to get response & Validate status codes & Status lines
+-> How to get response and validate response headers
+-> How to get response and validate Json body
+
+
+Student API Test cases
+-----------------
+Put
+Get
+Post
+Delete

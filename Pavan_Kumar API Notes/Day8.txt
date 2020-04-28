@@ -1,0 +1,61 @@
+Day-8
+--------
+SOAPUI
+----------
+
+Advantages
+---------
+1) Functional testing
+2) Security testing
+3) Performance/Load testing
+4) Supports both SOAP & Rest services
+
+How to install SOAPUI
+-------
+Download link: https://www.soapui.org/downloads/soapui.html
+
+Create a SOAP Project, Test Suite, Test Case
+-----------------------------
+WSDL: Web Service Description Language
+
+https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL
+https://www.dataaccess.com/webservicesserver/TextCasing.wso?WSDL
+https://footballpool.dataaccess.eu/info.wso?WSDL
+
+-> Create SOAP Project using WSDL
+-> Create test suite & Test cases
+-> Added contains assertion
+-> Execute tests in sequence & parallel
+-> Documentation
+
+
+Create a Rest Project, Test Suite, Test Case
+---------------------------------
+https://restcountries.eu/   ---> URL
+
+https://restcountries.eu/rest/v2/all    ---> /rest/v2/all -> URI
+
+WADL: Web Application Description Language
+
+-> Create Rest Project using URL(WADL)
+-> Create test suite & Test cases
+-> Added contains assertion
+-> Execute tests in sequence & parallel
+-> Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

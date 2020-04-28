@@ -1,0 +1,50 @@
+Day-8
+------
+Java Interfaces
+Java Packages
+Access Modifier’s
+-------------------------
+
+
+Interface
+-------------------
+An interface in java is a blueprint of a class. 
+Interface contains final and static variables.
+Interface contains abstract methods.
+An abstract method is a method contains definition but not body.
+Methods in interface are public by default.
+Interface supports the functionality of multiple inheritance.
+We can define interface with interface keyword.
+A class extends another class, an interface extends another interface but a class implements an interface.
+We can create Object reference for Interface but we cannot instantiate interface.
+
+package is collection of classes/interfaces/other files.
+
+import
+
+create sub package
+
+2 types of packages
+-----
+1) user defined packages
+2) built-in packages
+
+
+Access Modifier’s : Define the scope of varaibles and methods
+------------------
+1) public
+2) protected
+3) default
+4) private
+
+private: The private access modifier is accessible only within class.
+
+default:
+If you don't use any modifier, it is treated as default by default. The default modifier is accessible only within package.
+
+protected:
+The protected access modifier is accessible within package and outside the package but through inheritance only.
+
+public:
+------------
+we can access everywhere

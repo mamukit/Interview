@@ -1,0 +1,55 @@
+Day-26
+---------
+Framework
+-----------------
+Framework is used for organiziong project related files in properr order.
+
+-> Re-usuability
+-> Maintainability
+
+Types of frameworks
+-------------------
+1) Pre-defined frameworks
+	Junit, TestNG,Nunit etc...
+
+2) User defined frameworks/customized frameworks
+	Data Driven framework
+	Keyword Driven
+
+	Hybrid frameworks
+	----------------
+	Selenium webdriver
+	TestNG
+	Maven
+	pache poi
+	Sikuli
+	Log4j
+	extents reports
+	etc....
+
+
+3 Phases
+-----------
+1) Implementation
+2) Execution
+3) Maintanace
+
+
+Implementation
+---------------
+Maven: Build tool
+
+1-> pom.xml ( dependencies)
+You will get all the dependencies from...
+https://mvnrepository.com
+
+
+
+Application URL:http://admin-demo.nopcommerce.com/
+
+Admin email: admin@yourstore.com 
+Admin password: admin
+
+
+
+

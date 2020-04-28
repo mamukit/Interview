@@ -1,0 +1,81 @@
+Day-2
+-------
+Components of webservices 
+1) WSDL (Web Services Description Language)
+2) UDDI (Universal Description Discovery and Integration)
+
+SOAP & Rest services
+----------------------
+SOAP will use XML request
+Rest will use HTTP URL request
+
+API ---> no internet, we can test them locally( Avaialbe in jars)
+webservices--> Required internet, we can test them by sending http request(URL)
+
+Tools available
+---------------
+Postman
+SOAPUI
+Jmeter
+Katalon studio
+etc...
+
+Browsers
+
+API Testing process
+----------------------
+1) Review & understands Specification
+2) Identify how to access, identify different parameters, response etc....
+3) Test cases
+4) Execute manually/automate test cases then execute
+5) reprot defect s to the developer.
+
+
+Rest Servies
+---------------------
+
+Rest services use http protocol....
+
+4 types of HTTP requests
+
+1) POST ---> Create (C)
+2) GET --> Retrieve (R)
+3) PUT --> Update(U)
+4) DELETE ---> Deleting(D)
+
+CRUD OPerations...
+
+Parts of URL ---> Domain + URI + Query String
+
+Examples......
+
+https://reqres.in/
+
+
+HTTP Request
+----
+https://reqres.in/api/users?page=2
+
+status codes:..
+
+200 --> get successfull
+201 --> post succcessful 
+204 --> delete succesfull
+
+
+Demo: https://reqres.in/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

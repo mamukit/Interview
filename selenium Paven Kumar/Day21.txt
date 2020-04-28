@@ -1,0 +1,91 @@
+DAY-21
+--------
+TestNG
+--------
+TestNG--> New Generation
+Open source and Java based Unit testing tool
+built-in framework
+
+Similar to Junit.
+
+Advantages
+---------
+1) HTML reports(Default reports)
+2) Manage test suites and test cases
+3) Parallel execution
+4) uses annotations for executing methods in test cases
+5) supports parameterization
+6) Test does'nt have main method
+
+
+TestSuite--->Test cases---> Steps
+
+Package---->Classes---> mehtods
+
+Install TestNG
+
+
+First test case
+-----
+1. Open URL
+2. Login
+3.Logout
+
+
+@Test(priority=1)
+
+3 kinds of output
+-----------
+1) console
+2) Tree mode
+3) HTML report
+
+Annotations in TestNG
+-------------------------
+@Test
+
+@BeforeMethod, @AfterMethod
+@BeforeClass, @AfterClass
+@BeforeTest, @AfterTest
+
+
+TC1  (@BeforeMethod, @AfterMethod)
+------------
+1) Login ---> @BeforeMethod
+2) Search --->@Test
+3) Logout --> @AfterMethod
+4) Login
+5) Advanced Search --->@Test
+6) Logout
+7) Login
+8) Recharge --->@Test
+9) Logout
+
+
+TC2 (@BeforeClass, @AfterClass)
+-------
+1) Login ---> @BeforeClass
+2) Search ---> @Test
+3) AdvSearch ---> @Test
+4) Recharge ---> @Test
+5) Logout--> @AfterClass
+
+
+TC1, TC2 --->@BeforeTest, @AfterTest
+
+
+HTML report for your test cases
+------------------
+You need to run u r test cases using xml file
+
+2 ways of creating xml files
+----------
+1) Manually
+2) Automatically Generate 
+
+
+
+
+
+
+

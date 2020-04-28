@@ -1,0 +1,42 @@
+Day-23
+--------
+TestNG Listeners
+Extent reports
+-----------------
+
+TestNG Listeners : We can define post actions after execution of test cases based on status(pass, fail, skipped).
+
+TestListenerAdapter : This pre defined class present in TestNG
+
+onTestStart()
+onTestSuccess()
+onTestFailure()
+onTestTestSkipped()
+
+How to implement ExtentReports
+------------------
+Third Party reports
+
+Setup
+-----
+1) we need to download extent reports jars along with extent-config.xml
+	https://drive.google.com/open?id=1EXYQHO-QFUgUo10KnxPAjBYe1i3M6y9b
+
+2) add all the jars to your project build path and copy the extent-config.xml file in to project home directory.
+
+3) Create test case/s
+4) Implement listener class ( Written teh code for generating extent report)
+5) Integrate them in to testng xml file
+6) Execute test xml file which will generate extent report
+
+
+
+
+
+
+
+
+
+
+
+

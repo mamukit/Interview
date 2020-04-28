@@ -1,0 +1,23 @@
+Day-20
+--------
+Data Driven testing(Cont..)
+----------------
+
+getAttributeValue('value')
+
+HashMap
+-------
+key, value
+
+
+x  mercury@mercury
+y  mercury1@mercury1
+z  mercury2@mercury2
+
+
+split()
+
+Database testing with WebDriver
+------------
+
+JDBC ---> Java Database connectivity

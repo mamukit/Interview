@@ -1,0 +1,67 @@
+Day-10
+----------
+SOAP UI Properties
+
+Property is a variable whihc contains a value can be used in anywheere in the soapUI.
+
+
+WSDL : https://footballpool.dataaccess.eu/info.wso?WSDL
+Test Case: AllPlayersWithRole
+
+Properties can be created at...
+
+Project level
+Test suite level
+Test case level
+Test step level
+
+Syntax for access variables in different levels
+-----------------------
+Project       -  ${#Project#PropertyName}
+TestSuite   -  ${#TestSuite#PropertyName}
+TestCase   -  ${#TestCase#PropertyName}
+TestStep    -  ${TestStepName#PropertyName}
+
+Property Transfer(Value Transfer)
+-------------------------------------
+//*:string[1]
+
+
+Paramerization/Data Driven testing
+----------------------------------
+
+https://www.soapui.org/downloads/soapui.html
+
+We can do data driven testing using following sourses:
+----------------------------------
+Excel File
+Text file
+Data generation
+JDBC
+Json
+XML
+
+
+${DataSource-TXT#CountryName}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

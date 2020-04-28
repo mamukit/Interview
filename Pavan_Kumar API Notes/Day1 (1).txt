@@ -1,0 +1,47 @@
+Session-1
+-----------
+Agenda
+-------
+1) What is Client & Server?
+2) 3 Layers of Application
+3) Client Server architecture
+4) What is API & Webservice
+---------------------
+
+Basic concepts of API & webservices...
+
+High level overview on topics which we are going to learn
+
+
+Client & Server
+
+3 layers of application
+----------
+1) Front end(Presentation layer)
+2) Application Layer(Business Logic)
+3) Backend (Data Layer)
+
+Client/Server architecture
+----------------
+1- tier (PL, DL --> Single)
+2- tier ( PL, DL --> 2 systems)
+3 - tier (PL, BL, DY --3 OR N systems)
+
+API & Webservices
+---------------------
+
+API --> Application Programming Interface (Its not a webservice)
+Webservices --> also a kind of API's available on webservers, we need to access them by using URL. 
+
+Web services
+--------
+1) SOAP ---> First, older  XML
+2) Rest --> More popular   JSON,XML,HTML
+
+
+1) Basic concepts (Theory)
+2) Postman (Rest & SOAP)
+3) SOAPUI (SOAP & Rest)
+
+4) RestAssured API (Automation)
+	Java,TestNG,Maven,Jenkins

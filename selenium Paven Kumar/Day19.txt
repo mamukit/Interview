@@ -1,0 +1,36 @@
+Day-19
+-------
+Data Driven testing using Excel
+-------------------------------
+
+
+Download Apache poi for Microsoft Excel
+---------------
+http://www-us.apache.org/dist/poi/release/bin/poi-bin-3.17-20170915.zip
+
+Excel File-->Workbook-->Sheet-->Row-->Cell
+
+FileInputStream
+FileOutputStream
+
+1) How to read data from excel file.
+2) How to write data into excel
+-------------
+
+
+1) count rows
+2) count cells
+3) read data from cels
+4) write data into cells 
+
+
+XLUtils.java
+-----
+countingrows()
+countingcells()
+readcellvalue()
+writecellvalue()
+
+
+
+

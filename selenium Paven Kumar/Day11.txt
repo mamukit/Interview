@@ -1,0 +1,104 @@
+Day-11
+---------
+
+Selenium
+---------
+Selenium IDE
+WebDriver
+Grid
+
+Selenium WebDriver
+-----------------
+1) WebDriver is an Java Interface.
+	ChromeDriver  FirefoxDriver  InternetExplorerDriver  etc..
+
+2) WebDriver is an API(Application Programming Interface)
+
+3) WebDriver is one of the component of Selenium suite.
+
+4) WebDriver supports multiple languages(Java, C#, Python, ruby etc..)
+
+5) WebDriver automates only web based application(It needs browser) 
+
+6) Support multiple browsers(Chrome, Firefox, IE , etc...)
+
+7) Support multiple OS(Windows, MAC, Liunx...)
+
+8) Its open source(free)
+
+9) Selenium can integrate third party tools
+	AutoIT,Sikuli,Apache poi,TestNG,Extent reports etc...
+
+Limitations
+----------
+1) Cannot automate desktop applications
+2) Cannot automate images/graphs
+
+-> Desktop
+-> Web based
+-> Mobile
+
+
+Pre-Requisites
+-------------
+Java
+Eclipse
+
+Configure WebDriver with Eclipse
+----------------------------------
+1) Download webdriver jars
+	https://bit.ly/2zm3ZzF
+
+2) Create a new Java project in Eclipse
+
+3) Associate selenium webdriver jars to your java project in Eclipse
+
+Right on Project-->properties-->java build path--> Libraries-->Add External Jars
+-->Browse all the jars then click on add.-->Apply-->OK.
+=============================================================================
+
+Dowload drivers for browsers
+--------------------------------
+Firefox : https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-win64.zip
+
+Chrome : https://chromedriver.storage.googleapis.com/2.44/chromedriver_win32.zip
+
+IE :https://goo.gl/9Cqa4q
+
+=================================================================================
+
+Test Case
+-------------
+1) Open Web Browser(Chrome/IE/firefox).
+2) Open URL  https://opensource-demo.orangehrmlive.com/
+3) Enter username  (Admin).
+4) Enter password  (admin123).   
+5) Click on Login.
+6) Capture title of the home page.
+7) Verify title of the page: OrangeHRM 
+8) Close browser
+
+
+Username inputbox
+<input name="txtUsername" id="txtUsername" type="text">
+
+
+Assingment
+-------------
+1) Open Web Browser(Chrome/IE/firefox).
+2) Open URL http://newtours.demoaut.com/
+3) Enter username  (mercury).
+4) Enter password  (mercury).   
+5) Click on Sign-in.
+6) Capture title of the page.
+7) Verify title of the page: "Find a Flight: Mercury Tours:" 
+8) Close browser
+
+
+
+
+
+
+
+
+

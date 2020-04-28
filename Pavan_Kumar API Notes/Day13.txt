@@ -1,0 +1,17 @@
+Day-13
+------------
+Rest Assured --> Is an API designed for automating REST services/Rest API's
+
+Java
+Eclipse
+
+TestNG --> framework implemented on top of Java used for organizing test cases, test suites.
+Maven --> Build tool, used for getting dependencies required for your project
+
+
+
+
+Step1: Create Maven Project in Eclipse and update pom.xml with dependencies.
+
+You can download dependencies from URL:   https://mvnrepository.com/
+

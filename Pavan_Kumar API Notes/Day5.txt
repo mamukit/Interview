@@ -1,0 +1,78 @@
+Day-5
+---------
+Postman variables
+----------
+Collection variables
+
+	Right click on Collection-->Edit-->Variables-->Define varaibles(Key, value)-->Update
+	Usage:     {{key}}
+
+Global variable/Environment variables
+	GearICon(right top corner)-->Globals-->Define varaibles(Key, value)-->Update
+	Usage:     {{key}}
+
+
+Data Driven Testing
+--------------------
+json
+csv
+
+
+TC1
+---------
+URL: https://reqres.in/api/register
+
+Request Type: POST
+
+Data format: Json
+
+Test Data : JSON, CSV
+
+Request Body:
+
+{ 
+"email": "sydney@fife", 
+"password": "pistol" 
+} 
+
+TC2
+---------
+
+URL: http://localhost:8085/student
+
+Request Type: POST
+
+Data format: Json
+
+Test Data : JSON, CSV
+
+Request Body:
+
+ {
+        "id": 101,
+        "firstName": "Pavan",
+        "lastName": "Kumar",
+        "email": "abcxyz@risusDonecegestas.edu",
+        "programme": "Manger",
+        "courses": [
+            "Java",
+            "Selenium"
+           ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

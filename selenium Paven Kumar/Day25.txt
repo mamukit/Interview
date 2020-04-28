@@ -1,0 +1,48 @@
+Selenium Grid
+-------------
+Grid is a component of Selenium used for executing test cases remotly.
+
+Hub(Master) ---> One hub
+Node(Slave)  ---> Many number of nodes
+
+
+Pre-requisites
+----------
+1) We Should have drivers & browsers on Local & remote systems.
+
+2) Make local system as HUB server , then register all the VM's(nodes) with Hub
+	Download Selenium Standalone Server jar
+	https://goo.gl/4g538W
+
+	* we sholud have same jar on all the Nodes
+
+Convert your local system as hubserver
+----------
+java -jar selenium-server-standalone-3.9.1.jar -role hub
+
+	Nodes should register to http://192.168.13.1:4444/grid/register/
+	Clients should connect to http://192.168.13.1:4444/wd/hub
+
+	Check Hub is running or not
+	----
+	http://localhost:4444/grid/console
+
+Register node with Hub server
+------------------
+java -Dwebdriver.chrome.driver="C:\Drivers\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.9.1.jar -role node -hub http://192.168.13.1:4444/grid/register/
+
+
+3) Write test case then execute on Remote systems
+
+
+Scenarios
+----------------
+1) Windows(Hub)--------->Windows(Chrome)  // I'm using same machine as Hub and Node
+2) Windows(Hub)---------->Linux(Firefox)
+
+
+Register Linux node with Hub server
+------------------
+java -Dwebdriver.gecko.driver="/home/pavan/Drivers/geckodriver" -jar selenium-server-standalone-3.9.1.jar -role node -hub http://192.168.13.1:4444/grid/register/
+
+

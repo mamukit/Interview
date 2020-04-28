@@ -1,0 +1,67 @@
+Day-14
+-------
+wait commands
+Links
+Alerts/popus
+Frames/iframes
+
+
+Synchronization
+
+waits
+-----
+Thread.sleep(milli seconds)
+
+implicitWait
+	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS); 
+
+explicitwait
+	WebDriverWait mywait=new WebDriverWait(driver,10000);
+
+	mywait.until(ExpectedConditions.visibilityOfElementLocated(By.name("userName")));
+
+1) Find out total links present in a web page:
+	total links : 16
+
+case1: locator matches multiple elements, findElement() ----> this can be located single element
+case2: locator mathces multiple elements, findElements() --> this can be located multiple elements
+case3: locator matches single elemetn, findElements() ---> this can be located singel element
+
+Difference between findElement() & findElements()
+
+
+Alerts/popus (switch between alerts)
+---------------------
+https://testautomationpractice.blogspot.com/
+https://mail.rediff.com/cgi-bin/login.cgi
+
+driver.switchTo().alert().accept();//closes popup by using OK button
+driver.switchTo().alert().dismiss();//closes popup by using Cancel button
+
+Frames/iFrames(switch between frames)
+------------------------------------
+https://seleniumhq.github.io/selenium/docs/api/java/index.html
+
+
+driver.switchTo().frame(name)
+driver.switchTo().frame(index)
+driver.switchTo().frame(WebElement)
+
+driver.switchTo().defaultContent();
+
+packageListFrame
+packageFrame
+classFrame
+
+driver.switchTo().frame(0);
+
+
+Assingment
+-----------
+switch to frames
+http://demo.automationtesting.in/Frames.html
+
+
+
+
+

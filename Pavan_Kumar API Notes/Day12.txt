@@ -1,0 +1,25 @@
+Day-12
+-----------
+Flicker
+GoogleMaps
+------------------
+
+API Testing process
+---------------------------
+
+Swagger collection of tools to develop API's
+
+SwaggerIO is a interactive documentation tool.
+
+1) Pet
+2) store
+3) user
+
+Cat
+10288
+
+
+Flicker & Google Maps API’S
+-----------------------
+https://www.soapui.org/resources/tutorials/flickr.html
+https://www.soapui.org/resources/tutorials/google-maps.html

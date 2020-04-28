@@ -1,0 +1,86 @@
+Day-7
+----------
+How to run postman collection/requests from commands Line
+-------------------------------------------
+
+Pre-requisites(Setup)
+-------------
+1) Install Node.js (npm)
+2) Install newman
+3) Export collection and then run from command prompt
+
+
+Step 1 : Install node.js (Follow th document)
+          
+
+After installation....
+             Check if node and npm are installed
+	     cmd
+             node -v
+             npm –v
+
+Step 2 : Install Newman
+             npm install -g newman
+
+Step3: Exported colelction
+
+How many ways we can run
+--------------------------
+Method1:
+-------
+newman run StudentAPITests.postman_collection.json
+
+
+Method2 (Along with the html report):
+-----
+E:\>newman run StudentAPITests.postman_collection.json -r html
+
+Method3 : Executing collection remotely
+------
+
+Sahred collection link: https://www.getpostman.com/collections/541cd74989aa1e23582d
+
+E:\>newman run https://www.getpostman.com/collections/541cd74989aa1e23582d
+
+
+Method4: Executing collection remotely along with html report
+----------
+E:\>newman run https://www.getpostman.com/collections/541cd74989aa1e23582d -r html
+
+
+
+SOAP services using postman
+---------------------------
+WSDL ---> Webservice Description Language (XML Fromat)
+
+
+Number Conversion Service (SOAP)
+---------------
+WSDL: https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL
+
+Wizdler --> plug in we required to get body from the WSDL.
+
+
+
+Text Case conversion(SOAP)
+-------------
+WSDL:  https://www.dataaccess.com/webservicesserver/TextCasing.wso?WSDL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

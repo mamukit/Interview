@@ -1,0 +1,121 @@
+Day-3
+----------
+Java Control Statements
+-----------------
+Conditional Statements(Selection Statements)
+Loops /Iterative Statements
+Jump Statements
+
+
+Conditional Statements
+----------------------
+if..else
+
+if(condition)
+{
+//statements
+}
+else
+{
+//statemetns
+}
+
+Nested if..else
+----------------
+if(condition1)
+{
+statements;
+}
+else if(condition2)
+{
+statements;
+}
+else if(condition3)
+{
+statements;
+}
+else
+{
+Statements;
+}
+
+switch case
+-----------------
+
+switch(expression)
+{
+case <condition1>: statements; break;
+case <condition2>: statements; break;
+case <condition3>: statements; break;
+---
+----
+default: statements;
+
+}
+
+Loop: set of statement/s can be repeated multiple times based on a condition.
+
+while
+do..while
+for loop
+
+while loop
+-------
+
+while(condition)
+{
+statements;
+}
+
+do..while
+-------------
+
+do
+{
+//statements;
+}while(condition);
+
+
+for loop
+--------------
+
+initilization
+condition
+inc/dec
+
+
+for(initilize;condition; inc/dec)
+{
+statemetns;
+}
+
+Jump Statements
+--------
+break
+continue
+
+Assignments
+----------
+1) Write a Java program to find a number is positive or negative. 
+2) Write a Java program to find greatest of 3 numbers.
+3) Write a program in Java to display the multiplication table of 5. (for loop) 
+
+Expected Output :
+
+num * i = res
+5 X 0 = 0
+5 X 1 = 5
+5 X 2 = 10 
+----------
+------------
+5 X10 = 50 
+
+4)Write a Java program count the number of digits of the number.
+
+num=23456
+ 5 digits
+
+
+
+
+

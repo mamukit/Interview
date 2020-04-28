@@ -1,0 +1,43 @@
+Day-5
+-------
+OOP - Object oriented Programming.
+
+class --> collection of variables and methods
+object --> object is an instance of a class
+method --> block of code which contains a logic
+
+1) main() method can be present in a same class
+2) main() method can be present in a separate class.
+
+class varibles
+--------
+We can assign values to varaibles in 3 ways...
+1) By using reference varaible
+2) By using method
+3) By using constructor
+
+Constructor
+--------------
+1) Constructor a special type of method.
+2) Constructor used for initilizing the class varaibles
+3) Constructor Name should be same as class name
+4) constructor will not return any value(not even void)
+5) constructor will be invoked at the time of object creation.
+
+
+Method --> Block of code
+-----
+1)Case1- not taking parameters and also not returned any value 
+2)Case2 - not taking parameters but returning value
+3)Case3 - taking parameters, but not returning any value
+4) Case4 - method is taking parameters and also returning a value.
+
+
+2 Types Constructor
+----------------
+1) Defualt constructor
+2) Parameterized constructor
+
+
+
+

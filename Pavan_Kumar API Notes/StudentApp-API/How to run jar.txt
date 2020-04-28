@@ -1,0 +1,11 @@
+Command to execute jar file:
+---------------
+1) Open command prompt
+2) Goto jar location
+3) Run below command
+java -jar  --add-modules java.xml.bind  studentApp.jar --server.port=8085
+
+
+Opening App
+--------
+URL: http://localhost:8085/student/list   - default

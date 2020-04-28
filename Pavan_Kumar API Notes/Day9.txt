@@ -1,0 +1,79 @@
+Day-9
+-------
+SOAPUI Assertions
+-------------
+Assertion: Verifications
+
+SOAP Service --> XML 
+Rest Service --> JSON
+
+WSDL (SOAP)
+https://footballpool.dataaccess.eu/info.wso?WSDL
+
+<xmlbody>
+ 	<empdata>
+  		<empname>MARK</empname>
+			<firstname> Mar </firstname>
+			<lastname> KART </lastname>
+		<empno>101</empno>
+		<empsal>40000</empsal>
+	</empdata>
+</xmlbody>
+
+
+//empdata/empname
+//empdata/empno
+//empdata/empsal
+
+//empdata/empname/lastname
+
+//m:AllPlayerNamesResponse/m:AllPlayerNamesResult/m:tPlayerName[1]/m:iId
+//m:AllPlayerNamesResponse/m:AllPlayerNamesResult/m:tPlayerName[1]/m:sName   Aaron Cresswell
+
+//m:sName
+
+
+XML Response
+--------
+Contains
+Not contains
+XPath
+XQuery
+HTTP Status code
+Not HTTP Status codes
+SOAP Fault
+Not SOAP Fault
+Schema Compliance
+SLA
+script
+
+
+Rest service
+-------
+WADL (REST)
+https://reqres.in/api/users?page=2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+Cucumber
+Session-2
+------------------
+
+1) Feature file
+2) Step definitions
+3) TestRunner
+
+Cucumber options
+-----------------
+features = the path of the feature files
+glue=the path of the step definition files
+format= to generate different types of reporting
+monochrome = display the console output in a proper readable format
+strict = it will check if any step is not defined in step definition file
+dryRun = to check the mapping is proper between feature file and step def file
+
+--> Parameters using regular expressions
+
+
+Data driven testing
+----------------------------------
+method-1) Scenario Outline and Examples
+method-2) Data table with single input ( with header, without header(Map))

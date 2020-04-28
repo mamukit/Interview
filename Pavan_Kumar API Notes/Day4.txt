@@ -1,0 +1,23 @@
+Day-4
+---------
+
+Student API Feaures:
+-------------
+1) Create new Student (Post)
+2) Listing of Students (Get)
+3) Update student (Put)
+4) Delete Student (Delete)
+
+How to run Student API
+-------------------------
+1) Open Command Prompt--> Goto file location
+2) Run below command
+	E:\>java -jar  --add-modules java.xml.bind  studentApp.jar --server.port=8085
+3) Check API is running or not
+	http://localhost:8085/student/list
+
+
+Workflow in postman
+
+
+Collection-->Folders-->Requests

@@ -1,0 +1,55 @@
+Day-10
+---------
+ArrayList
+HashMap
+JDBC
+--------------
+
+Derived Data Types(Collections)
+
+ArrayList
+----------
+int a[]=new int a[5];
+
+Opearations on ArrayList
+--------------------
+How to declare array list
+how to to add elements/values to array list
+Find size of array list
+remove elements/values from array list
+insert a new element in the middle of array list
+read values from arraylist
+
+
+int a[]=new int[5]
+Object a[]=new Object[5];
+
+
+HashMap
+----------
+declare HASHMAP
+add elements to hashmap
+remove elements from hashmap
+read pairs from hashmap
+
+
+JDBC -- Java Database Connectivity
+
+Pre-requisite
+--------------
+1) Download database driver( .jar file)
+2) Add driver jar to your project
+
+Steps to write JDBC program
+------------------------
+1) Create a connection
+2) Create a query/statement
+3) Execute statement/query
+4) close connection
+
+
+
+
+
+
+

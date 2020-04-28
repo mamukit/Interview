@@ -1,0 +1,48 @@
+Cucumber
+Session-1
+---------------
+
+Pre-defined frameworks
+	JUNit (TDD --> Test Driven Framework)
+	TestNG (TDD --> Test Driven Framework)
+	Cucumber (BDD -->Behavior Driven Framework)
+
+User defined frameworks
+	Data Driven Frameowrk
+	Keyword Driven framework	
+	Hybrid Driven frmaework
+
+Install Cucumber plug-in for Ecipse
+------------------------
+Eclipse Market Place -->Search for cucmber -->Install
+
+Feature File
+-----------
+Feature file contains all the features of an application,
+
+Appliation: ebanking
+	Features: 
+		login --> Steps
+		add customer -->Steps
+		Edit customer --> Steps	
+		------
+		----
+
+To specify steps in feature file we need to use special language called Gherkins
+Feature
+Scenario
+Given
+When
+And
+Then
+
+
+Given
+	Pre-requisites
+When/And
+	Steps
+Then
+	Expected
+
+
+

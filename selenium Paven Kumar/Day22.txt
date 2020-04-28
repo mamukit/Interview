@@ -1,0 +1,64 @@
+Day-22
+---------
+
+
+Asert commands in TestNG(Assertions)
+-------------------------------------
+
+Assert.assertTrue(true or false);
+Assert.assertEquals(String1, String 2) ---> true/false
+Assert.fail()
+
+
+Dependency methods
+--------------------------
+
+@Test(priority=1, dependsOnMethods={"method1","method2"...}
+
+Disable test methods in testNG
+---------------
+@Test(priority=1,enabled=false)
+
+Parameterization
+-------------------
+Passing parameters/data to the test methods
+
+1) Through xml --> can be used for cross browser and parallel testing
+2) Through method --> @DataProvider
+
+
+XML structure
+--------------
+<suite name="testsute"
+	<test name="test">
+		<classes>
+			<class name="package.testcasename" />
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

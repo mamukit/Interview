@@ -1,0 +1,31 @@
+Day-15
+--------
+Nested Iframe
+Handle browser windows
+Date Picker 
+-----------
+
+driver.switchTo().frame(name)
+driver.switchTo().frame(WebELement)
+driver.switchTo().frame(0)
+
+
+Handle browser windows(switch between browser windows)
+-----
+
+
+handle --> an ID for a browser window
+
+driver.getwindowsHandle()
+driver.getwindowsHandles()
+
+Date Picker
+-----------
+https://goo.gl/RVdKM9
+
+
+Assingment
+------------
+https://testautomationpractice.blogspot.com/
+
+New Windows

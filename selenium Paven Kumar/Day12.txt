@@ -1,0 +1,97 @@
+Day-12
+--------
+Locators
+----------
+
+
+<input type="text" name="userName" size="10">
+
+
+tagname
+attributes
+values
+
+
+CSS Selector
+------------
+tag id   --> tag#id
+
+tag class  -->  tag.class 
+
+tag attribute ---> tag[attribute=value]
+
+tag class attribute  ---> tag.class[attribute=value]
+
+XPath
+--------
+what is xpath?
+how to capture xpath
+types of xpath
+Diff between absolute xpath & partial xpath
+Which xpath is prefer to use in script ? why?
+how to write xpath
+Xpath functions
+How to handle elements those attributes are dynmamically changing - By using xpath functions
+following & preceding with xpaths.
+
+
+what is xpath?
+------
+XPath is an address of an element.
+
+Ex:
+Absolute XPath(Full XPath)
+/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input
+
+Relative XPath(Partial XPath)
+//*[@id="email"]
+
+
+Firebug & Firepath --> Out dated
+
+ChroPath --> plug in available for Chrome & Firefox browser
+	We can capture both absolute & relative xpaths
+	Verify Xpath is right or wrong.
+
+ChroPath links:
+------ 
+Chrome: https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo?hl=en
+   Firfox: https://addons.mozilla.org/en-US/firefox/addon/chropath-for-firefox/
+
+
+/html/body/form/input[3]
+
+
+Diff between absolute xpath & partial xpath
+-----------
+
+1) Absolute xpath starts with ---> /
+Relative xpath starts with ---> 	//
+
+2) Absolute xpath  --> we dont use any attribute
+Relative xpath --> We use attribute/s
+
+Absolute XPath(Full XPath)
+/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input
+
+Relative XPath(Partial XPath)
+//*[@id="email"]/input/td[1]/......
+
+
+Xpath functions
+-----------
+1) text()
+2) contains()
+3) starts-with()
+
+
+preceding
+---------
+//input[@id='u_0_v']//preceding::input[4]
+
+driver.findElement(By.xpath("//*[@id="email"]")).sendkeys()
+
+
+
+
+

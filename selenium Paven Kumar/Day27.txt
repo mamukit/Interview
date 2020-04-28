@@ -1,0 +1,13 @@
+Day-27
+---------
+Kick start Atomation framework.
+---------
+Creating Maven project
+Updating pom.xml with required dependencies
+Creating folder structure
+Create basic test case(Login)
+Add logs to tet case
+Read Common values from Properties file
+Execute Test case on desired browsers
+
+
